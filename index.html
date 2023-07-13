@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <style>
+        body{
+            background-color:limegreen;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        fieldset{
+            background: white;
+            box-shadow: 0px 0px 15px rgba(51, 51, 51, 0.5);
+            width: 500px;
+            border: 1px solid #f2f2f2;
+            border-radius: 10px;
+            padding: 20px;
+            margin: auto;  
+            transform: translateY(50%);
+        }
+        input[type=submit] {
+    width: 100%;
+    background-color: limegreen;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=text], input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  ::placeholder {
+    font-size: 16px;
+    color:darkgrey;
+  }
+  p{
+    color: #ccc;
+    text-align: center;
+  }
+  a{
+    color: limegreen;
+    text-decoration: none;
+  }
+    </style>
+     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
+
+</head>
+<body>
+    <div class="container">
+   <form action="">
+    <fieldset>
+    <label for="username">Username</label><br>
+    <input type="text" id="name" placeholder="Enter Your Username"><br><br>
+    <label for="password">Password</label><br>
+    <input type="password" id="password" placeholder="Enter Your Password"><br><br>
+    <input type="submit" value="LOGIN"><br>
+    <p>Not registered? <a href="register.">Create an account</a></p>
+</fieldset>
+   </form> 
+</div>
+</body>
+</html>
